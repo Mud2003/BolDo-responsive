@@ -582,3 +582,91 @@ h1{
         gap: 3rem;
     }
 }
+
+/* Our Team - 1 */
+.our-team1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+/* Responsive Our Team - 1 */
+@media screen and (max-width: 1079px) {
+    .person-profile >img{
+        width: 200px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 747px) {
+    .our-team1{
+        gap: 1rem;
+    }
+    .profiles{
+        gap: 2rem;
+    }
+    .profiles{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .our-team1 >h1{
+        font-size: 1.5rem;
+    }
+    .our-team1 > h3{
+        font-size: 1rem;
+    }
+    .our-team1 > p{
+        font-size: 14px;
+    }
+    .person-profile > p{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 509px) {
+    .our-team1 > p{
+        font-size: 12px;
+    }
+    .person-profile > p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 478px) {
+    .our-team1 >h1{
+        font-size: 1.3rem;
+    }
+    .our-team1 > h3{
+        font-size: 0.8rem;
+    }
+    .our-team1 > p{
+        font-size: 11px;
+    }
+    .person-profile > p{
+        font-size: 11px;
+    }
+    .our-team1{
+        gap: 0.8rem;
+    }
+    .profiles{
+        gap: 1.6rem;
+    }
+}
+@media screen and (max-width: 377px) {
+    .our-team1 > p{
+        font-size: 10px;
+    }
+    .person-profile > p{
+        font-size: 10px;
+    }
+}
