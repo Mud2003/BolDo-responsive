@@ -350,7 +350,6 @@ h1{
     flex-direction: column;
     gap: 2rem;
     padding: 0rem 5rem;
-    margin-bottom: 10px;
 }
 .buttons{
     display: flex;
@@ -482,5 +481,104 @@ h1{
 @media screen and (max-width: 339px) {
     .our-story{
         margin-top: 160px;
+    }
+}
+
+
+/* Our Numbers Section */
+.our-numbers{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 5rem;
+    text-align: center;
+    background-color: #0a2640;
+    color: #fff;
+}
+.items-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15rem;
+    margin-top: 3rem;
+}
+.item >h2{
+    color: #65e4a3;
+}
+/* Responsive Our Numbers Section */
+
+@media screen and (max-width: 747px) {
+    .our-numbers >h1{
+        font-size: 1.5rem;
+    }
+    .our-numbers > h3{
+        font-size: 1rem;
+    }
+    .our-numbers > p{
+        font-size: 14px;
+    }
+    .items-numbers{
+        gap: 10rem;
+    }
+    .item > p{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 545px) {
+    .items-numbers{
+        gap: 8rem;
+    }
+}
+@media screen and (max-width: 509px) {
+    .our-numbers > h3{
+        font-size: 1rem;
+    }
+    .our-numbers > p{
+        font-size: 12px;
+    }
+    .item > p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 478px) {
+    .our-numbers > h3{
+        font-size: 0.8rem;
+    }
+    .our-numbers > h1{
+        font-size: 1.3rem;
+    }
+    .our-numbers > p{
+        font-size: 11px;
+    }
+    .item > p{
+        font-size: 11px;
+    }
+    .items-numbers{
+        gap: 5.5rem;
+    }
+}
+@media screen and (max-width: 377px) {
+    .our-numbers > h3{
+        font-size: 0.8rem;
+    }
+    .items-numbers{
+        margin-top: 2rem;
+        gap: 4.4rem;
+    }
+    .our-numbers > p{
+        font-size: 10px;
+    }
+    .item > p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 339px) {
+    .items-numbers{
+        margin-top: 1.8rem;
+        gap: 3rem;
     }
 }
