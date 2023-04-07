@@ -17,29 +17,3 @@ function changeCSSProperty(elementId, propertyName) {
 window.addEventListener('resize', function() {
     changeCSSProperty('humb-menu', 'display');
 });
-
-
-
-
-
-// @media screen and (max-width: 1079px) {
-
-// }
-// @media screen and (max-width: 747px) {
-
-// }
-// @media screen and (max-width: 545px) {
-
-// }
-// @media screen and (max-width: 509px) {
-
-// }
-// @media screen and (max-width: 478px) {
-
-// }
-// @media screen and (max-width: 377px) {
-
-// }
-// @media screen and (max-width: 339px) {
-
-// }
