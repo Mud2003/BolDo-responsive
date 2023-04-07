@@ -20,6 +20,9 @@ nav{
     padding: 1rem 3rem;
     width: auto;
 }
+nav > img{
+    cursor: pointer;
+}
 .nav-menu{
     display: flex;
     flex-direction: row;
@@ -361,7 +364,12 @@ h1{
     padding: 15px 50px;
     border-radius: 100px;
     background-color: #65e4a3;
+    border: 1px solid #65e4a3;
+    cursor: pointer;
     font-size: 20px;
+}
+.rm-btn:hover{
+    border: 1px solid #07580f;
 }
 .OS-btn{
     padding: 15px 50px;
@@ -369,6 +377,10 @@ h1{
     background-color: #ffffff;
     font-size: 20px;
     border: 1px solid black;
+    cursor: pointer;
+}
+.OS-btn:hover{
+    border: 1px solid #65e4a3;
 }
 /* Responsive Our Story */
 @media screen and (max-width: 1079px) {
@@ -804,6 +816,10 @@ ul{
 }
 .a{
     text-decoration: none;
+    color: rgb(86, 86, 86);
+}
+.a:hover{
+    color: black;
 }
 /* Responsive Footer Section */
 @media screen and (max-width: 940px) {
