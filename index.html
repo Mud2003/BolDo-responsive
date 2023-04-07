@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoLbo Site</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <img src="./assets/logo.png" alt="logo">
+        <ul class="nav-menu">
+            <li><a href="#">Products</a></li>        
+            <li><a href="#">Services</a></li>        
+            <li><a href="#">About</a></li>    
+            <button class="button">Log in</button>    
+        </ul>
+        <div class="humburger" onclick="showUl('humb-menu', 'display')">
+            <i class="fa-solid fa-bars fa-lg" style="color: #fafafa;"></i>
+        </div>
+    </nav>
+    <ul id="humb-menu">
+        <li class="hb-li"><a href="#">Products</a></li>        
+        <li class="hb-li"><a href="#">Services</a></li>        
+        <li class="hb-li"><a href="#">About</a></li>    
+        <button class="hb-button">Log in</button>    
+    </ul>
+
+
+    <!-- About Section -->
+    <section class="about">
+        <h3>About</h3>
+        <h1>We Love to make great things,<br>things that matter</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis<br>tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad li</p>
+    </section>
+
+    <!-- Image Section -->
+    <section class="images">
+        <div class="grid-items">
+            <img src="./assets/hero-image (4).png" alt="image">
+            <img src="./assets/hero-image (1).png" alt="image">
+            <img src="./assets/hero-image (5).png" alt="image">
+            <img src="./assets/hero-image (2).png" alt="image">
+            <img src="./assets/hero-image (3).png" alt="image">
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story">
+        <h3>Our Story</h3>
+        <h1>Handshake Infographics Mass Market <br> Crowdfunding Itertion!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad <br>
+        liLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiameu turpis molestie, dictum est a, mattis tellus. Sed dignissim,metus nec fringilla accumsan, risus sem sollicitudin lacus, utinterdum tellus elit sed risus. Maecenas eget condimentum velit,sit amet feugiat lectus. Class aptent taciti sociosqu ad li</p>
+        <div class="buttons">
+            <div class="rm-btn">
+                Read More
+            </div>
+            <div class="OS-btn">
+                Our Story
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
